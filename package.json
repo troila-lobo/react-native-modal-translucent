@@ -1,40 +1,77 @@
 {
-  "name": "@troila/react-native-modal-translucent",
-  "version": "5.0.0",
-  "description": "Remove the StatusBar background for Modal on Android.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/troila-lobo/react-native-modal-translucent.git"
+  "_from": "react-native-modal-translucent@^1.1.9",
+  "_id": "react-native-modal-translucent@1.1.9",
+  "_inBundle": false,
+  "_integrity": "sha1-qJGdrBKyg4eYl7TAEd0Rfvwo5kc=",
+  "_location": "/react-native-modal-translucent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-modal-translucent@^1.1.9",
+    "name": "react-native-modal-translucent",
+    "escapedName": "react-native-modal-translucent",
+    "rawSpec": "^1.1.9",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.9"
   },
-  "nativePackage": true,
-  "author": "listen <listenzz@163.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/troila-lobo/react-native-modal-translucent",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://172.27.105.1:4873/react-native-modal-translucent/-/react-native-modal-translucent-1.1.9.tgz",
+  "_shasum": "a8919dac12b283879897b4c011dd117efc28e647",
+  "_spec": "react-native-modal-translucent@^1.1.9",
+  "_where": "/home/wangyao/Android/project/LoboMeetingApp",
+  "author": {
+    "name": "listen",
+    "email": "listenzz@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/listenzz/react-native-modal-translucent/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Remove the StatusBar background for Modal on Android.",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "5.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "22.4.3",
+    "prettier": "^1.13.3",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "homepage": "https://github.com/listenzz/react-native-modal-translucent",
+  "jest": {
+    "preset": "react-native"
+  },
   "keywords": [
     "react-native",
     "modal",
     "translucent",
     "statusbar"
   ],
-  "scripts": {
-    "start": "react-native start",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint --fix --ext .js ./ && echo \"lint finished\" "
-  },
+  "license": "MIT",
+  "name": "react-native-modal-translucent",
+  "nativePackage": true,
   "peerDependencies": {
     "react": ">=16.0.0",
-    "react-native": ">=0.60.0"
+    "react-native": ">=0.51.0"
   },
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/runtime": "^7.3.4",
-    "babel-jest": "^24.5.0",
-    "jest": "^24.5.0",
-    "metro-react-native-babel-preset": "^0.55.0",
-    "react": "16.8.6",
-    "react-native": "0.60.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listenzz/react-native-modal-translucent.git"
   },
-  "jest": {
-    "preset": "react-native"
-  }
+  "scripts": {
+    "lint": "eslint --fix --ext .js ./ && echo \"lint finished\" ",
+    "modal": "node scripts/translucent-modal.js",
+    "postinstall": "npm run modal",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.9"
 }
