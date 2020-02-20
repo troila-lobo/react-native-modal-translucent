@@ -16,6 +16,7 @@
     "fetchSpec": "^1.1.9"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "http://172.27.105.1:4873/react-native-modal-translucent/-/react-native-modal-translucent-1.1.9.tgz",
@@ -56,7 +57,7 @@
     "statusbar"
   ],
   "license": "MIT",
-  "name": "react-native-modal-translucent",
+  "name": "react-native-troila-modal-translucent",
   "nativePackage": true,
   "peerDependencies": {
     "react": ">=16.0.0",
