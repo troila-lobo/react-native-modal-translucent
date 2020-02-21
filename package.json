@@ -57,7 +57,7 @@
     "statusbar"
   ],
   "license": "MIT",
-  "name": "react-native-troila-modal-translucent",
+  "name": "react-native-modal-translucent",
   "nativePackage": true,
   "peerDependencies": {
     "react": ">=16.0.0",
